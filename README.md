@@ -13,6 +13,7 @@ Robotak kamara bat eta lidar bat izango du ingurunea ezagutzeko eta kanpoko orde
 * [Problema soluzioak](#problema soluzioak)
 
 ## Txasis
+![IMG_20211217_134908](https://user-images.githubusercontent.com/99752283/154117982-706ab00e-2f8e-4979-b3e6-c8924d6b362e.jpg)
 
 
 ## Hardware
