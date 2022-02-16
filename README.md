@@ -13,10 +13,14 @@ Robotak kamara bat eta lidar bat izango du ingurunea ezagutzeko eta kanpoko orde
 * [Problema soluzioak](#problema soluzioak)
 
 ## Txasis
-![IMG_20211217_134908](https://user-images.githubusercontent.com/99752283/154117982-706ab00e-2f8e-4979-b3e6-c8924d6b362e.jpg)
-![IMG_20211217_134835](https://user-images.githubusercontent.com/99752283/154118868-161837d9-8745-4cf7-b09d-423688301a34.jpg)
+![Egurra](https://user-images.githubusercontent.com/99752283/154231856-d20924fc-0dbc-4cbd-bd84-b1373454c1da.PNG)
+![Gurpila hoverboard](https://user-images.githubusercontent.com/99752283/154232087-930d0fa6-29e8-4687-a9d9-4166f45c7fa1.PNG)
+![Gurpila](https://user-images.githubusercontent.com/99752283/154233297-fea1f2e9-36af-4aef-a730-67772f04ec86.PNG)
+![Metakrilatoa](https://user-images.githubusercontent.com/99752283/154233471-c455281d-9527-4545-adc9-ffb7c597948a.PNG)
 
-Hemen kableak ordenatzeko erabili degun PCB-aren eskema eta nola funtzionatzen duen.
+
+
+### Hemen kableak ordenatzeko erabili degun PCB-aren eskema eta nola funtzionatzen duen.
 
 PCBeskema:
 
