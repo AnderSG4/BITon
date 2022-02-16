@@ -40,8 +40,13 @@ Jetson nanoa 5V-rekin alimenta daiteke eta horretarako pull-down bat erabili gen
 
 
 ## Hardware
+### STM32 plaka:
+
 ![pinout](https://user-images.githubusercontent.com/99752283/154119568-9e194712-77e9-4167-9c38-01d6bcdfd503.png)
-STM32 plaka.
+
+
+
+Hardware originalak lau orratzeko bi kable eusten ditu, hasieran bi alboetan lotuak. Hoverboard pinak: GND, 12/15V eta USART2 & 3. USART2 & 3, UART, PWM, PPM eta IBUS input. Gainera, USART2 12bit ADC bezala erabil daiteke, eta USART3, berriz, I2C bezala. Kontuan izan USART3 (eskuineko alboko kablea) 5V tolantea den bitartean, USART2 ez dela 5V tolantea.
 
 ## JetsonStart
 Jetson nanoarekin hasteko SD txartel batean irudia sartu behar zaio.
@@ -54,7 +59,7 @@ https://www.balena.io/etcher/
 
 ## Flashing
 Finwarea biltzeko https://platformio.org/ erabili degu.
-gcc-arm-none-eabi deskargutu behar da, 7. berts funtzioakionatzen du https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
+gcc-arm-none-eabi deskargutu behar da, 7. bertsioa funtzioakionatzen du https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
 Gcc-ren kokapena Makefilean ezarri beharko da, "PREFIX =..." lekuan.
 STM32 zuzenean, GND, 3V3, SWDIO eta SWCLK dituen arazketa-goiburu bat dago. Konektatu GND, SWDIO eta SWCLK zure SWD programatzailera. ST link batekin lan egin dugu. Platformio-k ez badu ST link-a detektatzen konfigurazioetara jun, J link erakurtzen egon daiteke.
 
@@ -62,6 +67,10 @@ Ez elikatu plaka nagusia zure programatzailearen 3,3 V-ekin! Honek oinarrizko pl
 STM32 plaka alimentatua eta piztuta egoon behar da prozesuan.
 
 ## IP
+
+![Pioled](https://user-images.githubusercontent.com/99752283/154234191-716f829e-ae03-4d2b-a46c-8b8991947d56.PNG)
+
+
 Jetson nano-a WIFI-ra konektatzerakoan bere IP-a jakiteko pioled display bat erabili dugu. https://github.com/JetsonHacksNano/installPiOLED , hemen dago erabilitako kodea.
 ```
 git clone https://github.com/JetsonHacksNano/installPiOLED
