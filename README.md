@@ -19,9 +19,11 @@ Robotak kamara bat eta lidar bat izango du ingurunea ezagutzeko eta kanpoko orde
 Hemen kableak ordenatzeko erabili degun PCB-aren eskema eta nola funtzionatzen duen.
 
 PCBeskema:
+
 ![PCB eskema](https://user-images.githubusercontent.com/99752283/154231522-c72b7809-1786-4c93-98e6-59d52ae0ebb5.PNG)
 
 PCB:
+
 ![PCB](https://user-images.githubusercontent.com/99752283/154231534-cd52d2bc-cb8e-41f7-94ff-5f9593933d78.PNG)
 
 
