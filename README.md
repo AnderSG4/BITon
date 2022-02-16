@@ -17,7 +17,16 @@ Robotak kamara bat eta lidar bat izango du ingurunea ezagutzeko eta kanpoko orde
 ![IMG_20211217_134835](https://user-images.githubusercontent.com/99752283/154118868-161837d9-8745-4cf7-b09d-423688301a34.jpg)
 
 Hemen kableak ordenatzeko erabili degun PCB-aren eskema eta nola funtzionatzen duen.
+
+PCBeskema:
+![PCB eskema](https://user-images.githubusercontent.com/99752283/154231522-c72b7809-1786-4c93-98e6-59d52ae0ebb5.PNG)
+
+PCB:
+![PCB](https://user-images.githubusercontent.com/99752283/154231534-cd52d2bc-cb8e-41f7-94ff-5f9593933d78.PNG)
+
+
 PCB-a bi ataletan banatzen da; goiko atalean motorretik datozen kableak zuzenean hoverboard plakara konektatu beharrean PCB-ko konektoretara koenktatzen fitugu, hauek ordenatzeko eta batzuetan kablea motzegia delako eta ez da konekxioa egiteko iristen. Beheko atalean alimentazioaz arduratzen da. Bateria kargatzeko eta plaka alimentatzeko zirkuitu sinple bat sortu dugu, diodo bat jarriz ekiditen degu korronteak zirkuituan bueltatzeak.
+
 Jetson nanoa 5V-rekin alimenta daiteke eta horretarako pull-down bat erabili genuen bateriako 36V-ak erabiliz. Azkenean atal honek wz digu ezertarako balio, bai 5V-ak lortu ditugu baina Jetson nanoak 4A eskatzen ditu ere eta bateriak emandako korrontea ez da nahikoa hoverboard plaka eta Jetson-a abiarazteko. Azkenean beste bateria batekin alimentatu behar izan dugu.
 
 ## Hardware
