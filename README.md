@@ -17,6 +17,7 @@ Robotak kamara bat eta lidar bat izango du ingurunea ezagutzeko eta kanpoko orde
 ![Gurpila hoverboard](https://user-images.githubusercontent.com/99752283/154232087-930d0fa6-29e8-4687-a9d9-4166f45c7fa1.PNG)
 ![Gurpila](https://user-images.githubusercontent.com/99752283/154233297-fea1f2e9-36af-4aef-a730-67772f04ec86.PNG)
 ![Metakrilatoa](https://user-images.githubusercontent.com/99752283/154233471-c455281d-9527-4545-adc9-ffb7c597948a.PNG)
+![Robota](https://user-images.githubusercontent.com/99752283/154233670-c475ba0d-8dbd-4090-8e8c-694bd47d8e22.PNG)
 
 
 
@@ -34,6 +35,9 @@ PCB:
 PCB-a bi ataletan banatzen da; goiko atalean motorretik datozen kableak zuzenean hoverboard plakara konektatu beharrean PCB-ko konektoretara koenktatzen fitugu, hauek ordenatzeko eta batzuetan kablea motzegia delako eta ez da konekxioa egiteko iristen. Beheko atalean alimentazioaz arduratzen da. Bateria kargatzeko eta plaka alimentatzeko zirkuitu sinple bat sortu dugu, diodo bat jarriz ekiditen degu korronteak zirkuituan bueltatzeak.
 
 Jetson nanoa 5V-rekin alimenta daiteke eta horretarako pull-down bat erabili genuen bateriako 36V-ak erabiliz. Azkenean atal honek wz digu ezertarako balio, bai 5V-ak lortu ditugu baina Jetson nanoak 4A eskatzen ditu ere eta bateriak emandako korrontea ez da nahikoa hoverboard plaka eta Jetson-a abiarazteko. Azkenean beste bateria batekin alimentatu behar izan dugu.
+
+![Pull-down](https://user-images.githubusercontent.com/99752283/154233854-fd1c8600-6893-400b-955d-3c0f662eff25.PNG)
+
 
 ## Hardware
 ![pinout](https://user-images.githubusercontent.com/99752283/154119568-9e194712-77e9-4167-9c38-01d6bcdfd503.png)
