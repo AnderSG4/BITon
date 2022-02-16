@@ -10,7 +10,7 @@ Robotak kamara bat eta lidar bat izango du ingurunea ezagutzeko eta kanpoko orde
 * [IP](#ip)
 * [Lidar](#lidar)
 * [Kamara](#kamara)
-* [Problema soluzioak](#problema soluzioak)
+
 
 ## Txasis
 ![Egurra](https://user-images.githubusercontent.com/99752283/154231856-d20924fc-0dbc-4cbd-bd84-b1373454c1da.PNG)
@@ -64,7 +64,7 @@ Gcc-ren kokapena Makefilean ezarri beharko da, "PREFIX =..." lekuan.
 STM32 zuzenean, GND, 3V3, SWDIO eta SWCLK dituen arazketa-goiburu bat dago. Konektatu GND, SWDIO eta SWCLK zure SWD programatzailera. ST link batekin lan egin dugu. Platformio-k ez badu ST link-a detektatzen konfigurazioetara jun, J link erakurtzen egon daiteke.
 
 Ez elikatu plaka nagusia zure programatzailearen 3,3 V-ekin! Honek oinarrizko plaka batzuk erre ditu!
-STM32 plaka alimentatua eta piztuta egoon behar da prozesuan.
+STM32 plaka alimentatua eta piztuta egon behar da prozesuan.
 
 ## IP
 
@@ -153,10 +153,9 @@ chmod +x ZED_SDK_JP4.3_v3.0.run
 ```
 ./ZED_SDK_JP4.3_v3.0.run
 ```
-Instalazioaren hasieran, Software License erakutsiko dute. Q heman dute irakurri ondoren.
+Instalazioaren hasieran, Software License erakutsiko dute. Q heman irakurri ondoren.
 Instalazioan, menpekotasunei, erremintei eta laginen instalazioari buruzko galderak erantzun beharko dituzu. Bai eta ez, eta heman Enter. Jo Enter akatsen aukera aukeratzeko.
 Jetsonen tauletan, CUDA automatikoki instalatzen da JetPackekin. Beraz, orain prest zaude ZED SDK erabiltzeko.
-
 
 
 ## 
